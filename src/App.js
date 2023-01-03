@@ -1,12 +1,15 @@
 import './App.css';
-import { About } from './Components/About';
+import React from 'react';
+import { Profile } from './Components/Profile';
 import { Navbar } from './Components/Navbar';
+
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <About />
+      <Profile />
+
     </div>
   );
 }
