@@ -8,7 +8,7 @@ export const Profile = () => {
   return <>
   <div className={styles.Avatar_Container}>
     <div className={styles.Avatar_details}>
-      <h2>Hi! I,m Kishan Joshi</h2>
+      <h2>Hi! I'm Kishan Joshi</h2>
     <Typewriter
         options={{
         strings: ['A Full Stack Developer'],
