@@ -4,7 +4,11 @@ import styles from "../Styles/About.module.css";
 export const About = () => {
   return <div>
     <div id={styles.About_container}>
-        <h1>About me :</h1>
+       <h1>About me</h1>
+       <h3>A Motivated aspiring Full Stack Developer with hands-on experience in building
+          websites with MERN stack and various web technologies including HTML, CSS,
+          and JS. Curious to learn about emerging web technologies. Looking forward to
+          making a significant contribution to an organization through dedicated effort.</h3>
     </div>
   </div>
   

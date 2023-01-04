@@ -28,25 +28,41 @@ body{
 .navbar_div>h3{
     font-weight:300;
     font-family: 'Jost', sans-serif;
+    font-size:17px;
 }
 
 .navbar_div>h3:hover{
     color:#ffde59
 }
 
-#Resume_btn{
-    background-color:#ffde59;
+#Resume_navbtn{
     color: black;
+    background-color:#ffde59;
 }
 
+#Resume_navbtn:hover{
+    background-color: black;
+    color: white;
+    border: 0.5px solid white;
+}
 
-@media only screen and (max-width:700px) {
+@media only screen and (max-width:481px){
     .navbar_div {
        width:97%;
        margin:auto;
     }
     .navbar_div>h3{
         font-weight:100;
-        font-size:13px ;
+        font-size:13px;
     }
-  }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+    .navbar_div{
+        width:85%;
+        margin:auto;
+     }
+     .navbar_div>h3{
+        font-size:16px;
+     }
+}
