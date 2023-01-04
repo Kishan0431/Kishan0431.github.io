@@ -86,7 +86,7 @@
 
   @media (min-width: 481px) and (max-width: 767px) {
     .Avatar_details{
-      border: 1px solid;
+      /* border: 1px solid; */
       width:65%;
       height:120px;
       font-size:17px;
