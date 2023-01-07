@@ -9,7 +9,9 @@ export const About = () => {
           websites with MERN stack and various web technologies including HTML, CSS,
           and JS. Curious to learn about emerging web technologies. Looking forward to
           making a significant contribution to an organization through dedicated effort.</h3>
+          <img id={styles.about_avatar} src="https://i.ibb.co/jHzQ8fv/emoji.png" alt="avatar" />
     </div>
+    
   </div>
   
 }
