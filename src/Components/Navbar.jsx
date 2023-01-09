@@ -5,7 +5,6 @@ import { Button} from '@chakra-ui/react'
 export const Navbar = () => {
   return <>
   <div className={styles.navbar_container}>
-    <img id={styles.nav_avatar} src="https://i.ibb.co/rmqSVsP/Image-37.png" alt="avatar" />
     <div className={styles.navbar_div}>
       <h3>Home</h3>
       <h3>About me</h3>
