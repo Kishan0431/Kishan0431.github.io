@@ -1,0 +1,11 @@
+.project_div{
+    border: 1px solid black;
+    height: 500px; 
+    background-color:#ffde59; 
+}
+.project_div>h1{
+    font-size: 30px;
+    padding-top:4%;
+    color:black;
+    text-decoration:underline;
+}
