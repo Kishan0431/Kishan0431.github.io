@@ -1,7 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 .project_div{
     border: 1px solid black;
     height:200vh; 
@@ -76,13 +73,12 @@
         width:100%;
         margin: auto;
         height: 530px;
-        margin-top:130%;
+        margin-top:125%;
         display: grid;
         margin-left:10%;
     }
     .project_img{
         height:150px;
-
     }
 }
 
