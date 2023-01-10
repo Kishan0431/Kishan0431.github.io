@@ -49,12 +49,17 @@
   background-color: white;
 }
 
-  @media only screen and (max-width:440px){
+  @media (min-width:200px) and (max-width: 481px){
+    *{
+      margin: 0px;
+      padding: 0px;
+    }
     .Avatar_Container{
       display: grid;
       grid-template-columns: repeat(1,300px);
       grid-template-rows:repeat(2,250px) ;
-      min-height:95vh;
+      min-height:95vh;  
+      width:100%;
     }
     .Avatar_details{
       /* border: 1px solid; */

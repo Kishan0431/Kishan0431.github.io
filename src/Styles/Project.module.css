@@ -58,7 +58,7 @@
         border: 1px solid black;
         height:400vh; 
         background-color:black; 
-        width: 100%;
+        width:100%;
     }
     .project_onetwo{
         width:100%;
@@ -76,13 +76,13 @@
         width:100%;
         margin: auto;
         height: 530px;
-        margin-top:145%;
+        margin-top:130%;
         display: grid;
         margin-left:10%;
     }
     .project_img{
         height:150px;
-        
+
     }
 }
 
