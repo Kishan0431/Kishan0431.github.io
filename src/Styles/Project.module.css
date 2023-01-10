@@ -73,7 +73,7 @@
         width:100%;
         margin: auto;
         height: 530px;
-        margin-top:125%;
+        margin-top:138%;
         display: grid;
         margin-left:10%;
     }
@@ -82,3 +82,6 @@
     }
 }
 
+@media (min-width: 481px) and (max-width: 767px){
+
+}
