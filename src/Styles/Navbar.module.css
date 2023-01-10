@@ -6,7 +6,7 @@ body{
 .navbar_container{
     border: 1px solid black;
     height: 70px;
-    background-color:#080808;
+    background-color:black;
     position: fixed;
     top: 0;
     width: 100%;
