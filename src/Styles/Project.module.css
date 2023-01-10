@@ -1,6 +1,6 @@
 .project_div{
     border: 1px solid black;
-    height:140vh; 
+    height:200vh; 
     background-color:black; 
 }
 .project_div>h1{
@@ -14,7 +14,7 @@
     width: 85%;
     margin: auto;
     height: 530px;
-    margin-top:4%;
+    margin-top:6%;
     display: flex;
     justify-content:space-evenly;
 }
@@ -27,4 +27,16 @@
 .card_body{
     color: white;
     text-align:left;
+}
+.project_btn{
+    background-color:#ffde59;
+}
+.languages_icon{
+    display: flex;
+    /* border: 1px solid; */
+    margin-top:2%;
+    
+}
+.languages_icon>img{
+    width:12%;
 }
