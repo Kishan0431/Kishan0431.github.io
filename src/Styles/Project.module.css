@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .project_div{
     border: 1px solid black;
     height:200vh; 
@@ -11,6 +15,14 @@
 
 .project_onetwo{
     /* border: 1px solid white; */
+    width: 85%;
+    margin: auto;
+    height: 530px;
+    margin-top:6%;
+    display: flex;
+    justify-content:space-evenly;
+}
+.project_threefour{
     width: 85%;
     margin: auto;
     height: 530px;
@@ -40,3 +52,33 @@
 .languages_icon>img{
     width:12%;
 }
+
+@media (min-width:200px) and (max-width: 481px){
+    .project_div{
+        border: 1px solid black;
+        height:400vh; 
+        background-color:black; 
+        width: 100%;
+    }
+    .project_onetwo{
+        width:100%;
+        margin: auto;
+        height: 530px;
+        margin-top:6%;
+        display: grid;
+        margin-left:10%;
+    }
+    .project{
+        width: 80%;
+        margin-top:8%;
+    }
+    .project_threefour{
+        width:100%;
+        margin: auto;
+        height: 530px;
+        margin-top:150%;
+        display: grid;
+        margin-left:10%;
+    }
+}
+

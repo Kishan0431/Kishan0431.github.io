@@ -73,7 +73,7 @@ export const Project = () => {
                   </CardFooter>
             </Card>
     </div>
-    <div className={styles.project_onetwo}>
+    <div className={styles.project_threefour}>
       {/* ----------------------Idea cart------------------------ */}
                 <Card className={styles.project} maxW='md'>
                   <CardBody className={styles.card_body}>

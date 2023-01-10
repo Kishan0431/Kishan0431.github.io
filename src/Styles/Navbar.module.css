@@ -47,15 +47,17 @@ body{
     border: 0.5px solid white;
 }
 
-@media only screen and (max-width:481px){
+@media (min-width:200px) and (max-width: 481px){
     .navbar_div {
-       width:86%;
-       /* border: 1px solid; */
+       width:85%;
+       border: 1px solid;
        margin:auto;
+       padding-right:3%;
     }
     .navbar_div>h3{
         font-weight:100;
         font-size:12px;
+        padding:6px;
     }
   
 }
