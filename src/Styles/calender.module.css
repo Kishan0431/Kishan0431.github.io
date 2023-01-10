@@ -1,0 +1,16 @@
+.calender_div{
+    background-color: black;
+    height:400px;
+    color: white;
+    /* border: 1px solid; */
+}
+.calender_div>h1{
+    font-size: 30px;
+    padding-top:1%; 
+}
+.calender{
+    /* border: 1px solid; */
+    width:55%;
+    margin: auto;
+    margin-top:3%;
+}

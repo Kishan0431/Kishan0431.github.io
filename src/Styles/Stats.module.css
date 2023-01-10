@@ -1,0 +1,9 @@
+.stats{
+    background-color: black;
+    height:500px;
+}
+.stats>h1{
+    font-size: 30px;
+    color: white;
+    padding-bottom: 2%;
+}
