@@ -76,9 +76,12 @@
         width:100%;
         margin: auto;
         height: 530px;
-        margin-top:165%;
+        margin-top:145%;
         display: grid;
         margin-left:10%;
+    }
+    .project_img{
+        height:150px;
     }
 }
 
