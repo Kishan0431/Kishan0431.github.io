@@ -50,16 +50,12 @@
 }
 
   @media (min-width:200px) and (max-width: 481px){
-    *{
-      margin: 0px;
-      padding: 0px;
-    }
     .Avatar_Container{
       display: grid;
       grid-template-columns: repeat(1,300px);
       grid-template-rows:repeat(2,250px) ;
       min-height:95vh;  
-      width:100%;
+      width:125%;
     }
     .Avatar_details{
       /* border: 1px solid; */
