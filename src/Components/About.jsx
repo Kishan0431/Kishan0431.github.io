@@ -2,7 +2,8 @@ import React from 'react'
 import styles from "../Styles/About.module.css";
 
 export const About = () => {
-  return <div>
+  return <div id={"about"}>
+    
     <div id={styles.About_container}>
 {/* eslint-disable-next-line */}
     <marquee  direction="left">नमस्ते! I'm Full Stack Developer Specialization in MERN stack and Seeking to pursue a career in a challenging environment to hone industry skill.</marquee>

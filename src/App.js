@@ -7,6 +7,8 @@ import { ChakraProvider } from '@chakra-ui/react'
 import { Project } from './Components/Project';
 import { Calender } from './Components/Calender';
 import { Stats } from './Components/Stats';
+import { Techstack } from './Components/Techstack';
+
 
 function App() {
   return (
@@ -18,8 +20,8 @@ function App() {
       <Project />
       <Calender />
       <Stats />
-      </ChakraProvider>
-      
+      <Techstack />
+      </ChakraProvider>     
     </div>
   );
 }

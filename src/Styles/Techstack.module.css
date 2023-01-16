@@ -1,0 +1,23 @@
+.Tech_container{
+    background-color: black;
+    border: 1px solid white;
+}
+.Tech_container>h1{
+    font-size: 30px;
+    padding-top:2%;
+    color: white;
+}
+.skills{
+    border: 1px solid white;
+    height:65vh;
+    margin-top:4%;
+    width:70%;
+    margin: auto;
+}
+.skills>div{
+    border: 1px solid;
+}
+.techStack_first{
+    border: 1px solid;
+    height: 100px;
+}

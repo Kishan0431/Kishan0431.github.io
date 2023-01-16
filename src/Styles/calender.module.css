@@ -1,6 +1,6 @@
 .calender_div{
     background-color: black;
-    height:400px;
+    height:440px;
     color: white;
     /* border: 1px solid; */
 }
@@ -12,5 +12,5 @@
     /* border: 1px solid; */
     width:55%;
     margin: auto;
-    margin-top:3%;
+    margin-top:6%;
 }

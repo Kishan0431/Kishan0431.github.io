@@ -5,7 +5,7 @@ import { Card,Image, Stack, Heading, Text, ButtonGroup,Button, CardBody, CardFoo
 
 export const Project = () => {
   return (
-    <div className={styles.project_div}>
+    <div id={"project"} className={styles.project_div}>
         <h1>Projects</h1>
     <div className={styles.project_onetwo}>
       {/* ----------------------J.crew------------------------ */}

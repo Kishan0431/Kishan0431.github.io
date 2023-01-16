@@ -6,7 +6,7 @@ import { Button} from '@chakra-ui/react';
 export const Profile = () => {
   
   return <>
-  <div className={styles.Avatar_Container}>
+  <div className={styles.Avatar_Container} id={"home"}>
     <div className={styles.Avatar_details}>
       <h2>Hi! I'm Kishan Joshi</h2>
     <Typewriter
