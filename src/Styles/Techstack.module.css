@@ -1,6 +1,7 @@
 .Tech_container{
     background-color: black;
-    border: 1px solid white;
+    /* border: 1px solid white; */
+    height: 85vh;
 }
 .Tech_container>h1{
     font-size: 30px;
@@ -8,16 +9,45 @@
     color: white;
 }
 .skills{
-    border: 1px solid white;
-    height:65vh;
-    margin-top:4%;
+    /* border: 1px solid green; */
+    height:fit-content;
     width:70%;
     margin: auto;
+    margin-top: 4%;
 }
 .skills>div{
-    border: 1px solid;
+    /* border: 1px solid; */
+    margin-top:2%;
 }
 .techStack_first{
-    border: 1px solid;
-    height: 100px;
+    /* border: 1px solid; */
+    height:150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.icon_container img{
+    /* border: 1px solid; */
+    height:85px;
+    width:85px;
+    transition: all .4s ease-in-out;
+}
+.icon_container img:hover{
+    cursor: pointer;
+    transform:scale(1.1);
+}
+.icon_container p{
+    color: white;
+    font-size:16px;
+    font-weight:lighter;
+    margin-top:4%;
+    transition: all .4s ease-in-out;
+    font-family: 'Jost', sans-serif;
+    
+    letter-spacing:1px;
+}
+.icon_container p:hover{
+    cursor: pointer;
+    transform:scale(1.1);
+    color: #ffde59;
 }

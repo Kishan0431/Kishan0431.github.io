@@ -11,7 +11,7 @@ export const Profile = () => {
       <h2>Hi! I'm Kishan Joshi</h2>
     <Typewriter
         options={{
-        strings: ['A Full Stack Developer', 'Life Long Learner < />'],
+        strings: ['Front-end developer', 'Life Long Learner < />'],
         autoStart: true,
         loop: true,
         }}

@@ -1,21 +1,23 @@
 #About_container{
     /* border: 1px solid rgb(241, 238, 238); */
-    height:500px;
+    min-height:650px;
     background-color: black;
     color: white;
 }
 #About_container>h1{
     font-size: 30px;
-    padding-top:4%;
-    /* text-decoration:underline; */
+    padding-top:10%;
 }
 #About_container>h3{
     /* border: 1px solid; */
     font-size:19px;
+    font-weight: lighter;
     width: 50%;
     margin: auto;
     margin-top:6%;
-    text-align:justify;
+    text-align:left;
+    letter-spacing: 1px;
+    
 }
 #about_avatar{
     width:10%;

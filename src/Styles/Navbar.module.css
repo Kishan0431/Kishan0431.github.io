@@ -4,7 +4,7 @@ body{
     
 }
 .navbar_container{
-    border: 1px solid black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     height: 70px;
     background-color:black;
     position: fixed;
@@ -12,33 +12,30 @@ body{
     width: 100%;
     display: flex;
     z-index: 20; 
+    display: flex;
+    justify-content:center;
 }
 
 ul{
     display: flex;
-    color: white;
+    color:white;
     justify-content: space-evenly;
     /* border: 1px solid white; */
-    font-family: 'Jost', sans-serif;
     list-style: none;
-    width:100%;
-    font-size:18px;
+    width:60%;
+    font-size:17px;
     align-items: center;
 }
-
+li{
+    letter-spacing: 1.5px;
+    font-weight: lighter;
+    
+}
 li:hover{
     cursor: pointer;
-}
-
-#Resume_navbtn{
-    color: black;
-    background-color:#ffde59;
-}
-
-#Resume_navbtn:hover{
-    background-color: black;
-    color: white;
-    border: 0.5px solid white;
+    transition: all .2s ease-in-out;
+    transform:scale(1.1);
+    /* color: #ffde59; */
 }
 
 @media (min-width:200px) and (max-width: 481px){

@@ -11,6 +11,8 @@ import { Techstack } from './Components/Techstack';
 
 
 function App() {
+
+
   return (
     <div className="App">
       <ChakraProvider>

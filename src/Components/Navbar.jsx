@@ -1,10 +1,12 @@
 import React from 'react';
 import styles from "../Styles/Navbar.module.css";
-import { Button} from '@chakra-ui/react'
 import { Link} from 'react-scroll'
 
 
+
 export const Navbar = () => {
+ 
+ 
   return <>
   <div className={styles.navbar_container}>
     
@@ -16,17 +18,17 @@ export const Navbar = () => {
       </li>
       <li>
       <Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500}>
-          about
+          About
       </Link>
       </li>
       <li>
       <Link activeClass="active" to="skill" spy={true} smooth={true} offset={50} duration={500}>
-          Skill
+          Techstack
       </Link>
       </li>
       <li>
       <Link activeClass="active" to="project" spy={true} smooth={true} offset={50} duration={500}>
-          Project
+          Projects
       </Link>
       </li>
       <li>
@@ -34,9 +36,9 @@ export const Navbar = () => {
           Contact
       </Link>
       </li>
-      <Button id={styles.Resume_navbtn}>
+      {/* <Button id={styles.Resume_navbtn}>
         <a href='https://github.com/Kishan0431/Kishan0431/raw/main/Kishan_Joshi_Resume.pdf' download>Resume</a>
-      </Button>
+      </Button> */}
     </ul>
 
   </div>
