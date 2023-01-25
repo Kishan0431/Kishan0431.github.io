@@ -21,7 +21,7 @@ export const Profile = () => {
     </Button>
     </div>
     <div className={styles.Avatar}>
-        <img src="https://avatars.githubusercontent.com/u/103808725?v=4" alt="avatar" />
+        <img src="https://avatars.githubusercontent.com/u/103808725?v=4" alt="avatar" onMouseDown="10px"/>
     </div>
   </div>
   </>

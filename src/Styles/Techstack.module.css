@@ -30,11 +30,12 @@
     /* border: 1px solid; */
     height:85px;
     width:85px;
-    transition: all .4s ease-in-out;
+    border-radius:18%;
+    transition: all .3s ease-in-out;
 }
 .icon_container img:hover{
     cursor: pointer;
-    transform:scale(1.1);
+    transform:scale(1.07);
 }
 .icon_container p{
     color: white;
