@@ -9,7 +9,7 @@ export const About = () => {
     <marquee  direction="left">नमस्ते! I'm Front-end developer Specialization in MERN stack and Seeking to pursue a career in a challenging environment to hone industry skill.</marquee>
  
        <h1>About me</h1>
-       <h3>A Motivated aspiring Full Stack Developer with hands-on experience in building
+       <h3>A Motivated aspiring Front-end Developer with hands-on experience in building
           websites with MERN stack and various web technologies including HTML, CSS,
           and JS. Curious to learn about emerging web technologies. Looking forward to
           making a significant contribution to an organization through dedicated effort.</h3>
