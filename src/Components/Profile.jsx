@@ -19,6 +19,7 @@ export const Profile = () => {
     <Button id={styles.Resume_btn}>
         <a href='https://github.com/Kishan0431/Kishan0431/raw/main/Kishan_Joshi_Resume.pdf' download>Resume</a>
     </Button>
+    
     </div>
     <div className={styles.Avatar}>
         <img src="https://avatars.githubusercontent.com/u/103808725?v=4" alt="avatar" onMouseDown="10px"/>
