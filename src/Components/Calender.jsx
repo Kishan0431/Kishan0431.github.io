@@ -9,7 +9,7 @@ export const Calender = () => {
   return <div className={styles.calender_div}>
     <h1>My Github Calender</h1>
     <div className={styles.calender}>
-        <GitHubCalendar  
+        <GitHubCalendar 
                 username="Kishan0431"
                 fontSize={20}
                 blockSize={18}

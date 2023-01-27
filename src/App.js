@@ -8,6 +8,7 @@ import { Project } from './Components/Project';
 import { Calender } from './Components/Calender';
 import { Stats } from './Components/Stats';
 import { Techstack } from './Components/Techstack';
+import Contact from './Components/Contact';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Calender />
       <Stats />
       <Techstack />
+      <Contact />
       </ChakraProvider>     
     </div>
   );

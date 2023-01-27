@@ -7,6 +7,8 @@
 #About_container>h1{
     font-size: 30px;
     padding-top:10%;
+    letter-spacing: 1px;
+    font-weight: lighter;
 }
 #About_container>h3{
     /* border: 1px solid; */
@@ -23,6 +25,11 @@
     width:10%;
     margin-left:82%;
 }
+#about_avatar:hover{
+    transition: all .8s ease-in-out;
+    transform: scale(1.5);
+    cursor: pointer;
+}
 marquee{
     margin-top: 1%;
 }
@@ -30,10 +37,11 @@ marquee{
 @media (min-width:200px) and (max-width: 481px){
     #About_container{
         /* border: 1px solid; */
-        height:450px;
+        height:400px;
         background-color: black;
+        font-weight: lighter;
         color: white;
-        width: 125%;
+        width:100%;
     }
     #About_container>h1{
         font-size:28px;

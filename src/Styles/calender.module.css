@@ -6,11 +6,24 @@
 }
 .calender_div>h1{
     font-size: 30px;
-    padding-top:1%; 
+    padding-top:1%;
+    letter-spacing: 1px;
+    font-weight: lighter; 
 }
 .calender{
     /* border: 1px solid; */
     width:55%;
     margin: auto;
     margin-top:6%;
+}
+
+@media (min-width:200px) and (max-width: 481px){
+    .calender_div{
+        margin-top: -240%;
+    }
+    .calender{
+        width:90%;
+        margin-top:20%;
+    }
+   
 }

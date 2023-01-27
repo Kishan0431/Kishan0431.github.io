@@ -8,6 +8,8 @@
     font-size: 30px;
     padding-top:8%;
     color:white;
+    letter-spacing: 1px;
+    font-weight: lighter;
 }
 
 .project_onetwo{
@@ -62,12 +64,12 @@
         border: 1px solid black;
         height:400vh; 
         background-color:black; 
-        width:125%;
+        width:100%;
     }
     .project_onetwo{
         width:100%;
         margin: auto;
-        height: 530px;
+        height:440px;
         margin-top:6%;
         display: grid;
         margin-left:10%;
@@ -75,11 +77,11 @@
     .project{
         width: 80%;
         margin-top:8%;
+        height:fit-content;
     }
     .project_threefour{
         width:100%;
         margin: auto;
-        height: 530px;
         margin-top:138%;
         display: grid;
         margin-left:10%;

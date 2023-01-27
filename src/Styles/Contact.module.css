@@ -1,0 +1,76 @@
+#contact_container{
+    /* border: 1px solid red; */
+    height:64vh;
+    background-color:black;
+}
+#contact_container>h1{
+    font-size: 30px;
+    padding-top:2%;
+    color: white;
+    letter-spacing: 1px; 
+    font-weight: lighter;
+}
+#outer{
+    /* border: 1px solid red; */
+    height: 120px;
+    width: 50%;
+    margin: auto;
+    margin-top:4%;
+    display: grid;
+    grid-template-columns: repeat(4,65px);
+    grid-template-rows:65px;
+    gap: 20px;
+    justify-content:center;
+    align-content: center;
+}
+#outer>div{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+}
+.social:hover{
+    transition: all .4s ease-in;
+    transform:rotate(360deg);
+}
+.social{
+    color:rgb(134, 134, 134);
+    height:45px;
+    width: 45px;
+}
+#upbtn{
+   /* border: 1px solid; */
+   height:70px;
+   margin-top:4%;
+   display: flex;
+   justify-content:flex-end;
+}
+#upbtn>div{
+    border: 1px solid;
+    height: 60px;
+    width: 60px;
+    margin-right:5%;
+    background-color: #ffde59;
+    border-radius:25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0.2;
+    position: fixed;
+    bottom:30px;
+}
+#upbtn>div:hover{
+    transition: all .4s ease-in;
+    transform:scale(1.2);
+    opacity: 1;
+} 
+.up{
+    width: 40px;
+    height: 40px;
+}
+@media (min-width:200px) and (max-width: 481px){
+    #contact_container{
+        height:40vh;
+    }
+}

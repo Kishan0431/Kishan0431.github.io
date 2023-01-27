@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "../Styles/Project.module.css";
 import { Card,Image, Stack, Heading, Text, ButtonGroup,Button, CardBody, CardFooter } from '@chakra-ui/react';
-
+import machineImg from '../Components/machine-and-tools.netlify.app.png'
 
 export const Project = () => {
   return (
@@ -33,10 +33,10 @@ export const Project = () => {
                   <CardFooter>
                     <ButtonGroup spacing='2'>
                       <Button variant='solid'>
-                        <a href="https://kaleidoscopic-torrone-494925.netlify.app/index.html">See this Live</a>
+                        <a href="https://kaleidoscopic-torrone-494925.netlify.app/index.html" target='_blank' rel='noreferrer'>See this Live</a>
                       </Button>
                       <Button variant='ghost' className={styles.project_btn}>
-                      <a href="https://github.com/Kishan0431/J.Crew">View Code</a>
+                      <a href="https://github.com/Kishan0431/J.Crew" target='_blank' rel='noreferrer'>View Code</a>
                       </Button>
                     </ButtonGroup>
                   </CardFooter>
@@ -64,28 +64,28 @@ export const Project = () => {
                   <CardFooter>
                     <ButtonGroup spacing='2'>
                       <Button variant='solid'>
-                        <a href="https://sanjiv358.github.io/-plucky-throne-4544/">See this Live</a>
+                        <a href="https://sanjiv358.github.io/-plucky-throne-4544/" target='_blank' rel='noreferrer'>See this Live</a>
                       </Button>
                       <Button variant='ghost' className={styles.project_btn}>
-                        <a href="https://github.com/Kishan0431/-plucky-throne-4544">View Code</a>
+                        <a href="https://github.com/Kishan0431/-plucky-throne-4544" target='_blank' rel='noreferrer'>View Code</a>
                       </Button>
                     </ButtonGroup>
                   </CardFooter>
             </Card>
     </div>
     <div className={styles.project_threefour}>
-      {/* ----------------------Idea cart------------------------ */}
+      {/* ----------------------Machine and tools------------------------ */}
                 <Card className={styles.project} maxW='md'>
                   <CardBody className={styles.card_body}>
                     <Image className={styles.project_img}
-                      src='https://github.com/fahisayub/ideakart-clone/raw/main/SiteImages/2022-06-18.png '
-                      alt='ideakart'
+                      src={machineImg}
+                      alt='machine&tools'
                       borderRadius='lg'
                     />
                     <Stack mt='6' spacing='3'>
-                      <Heading size='lg'>Ideakart</Heading>
+                      <Heading size='lg'>Machine&Tools</Heading>
                       <Text>
-                      Ideakart is a first of it's kind marketplace for ideas.it also provides you books at best prices throughout internet where the user can make Novels purchases.
+                      Machine&tools is a website where people can purchase Industrial Products with an objective to inculcate and introduce the concept of industrial supply chains in India.
                       </Text>
                     </Stack>
                     <div className={styles.languages_icon}>
@@ -97,10 +97,10 @@ export const Project = () => {
                   <CardFooter>
                     <ButtonGroup spacing='2'>
                       <Button variant='solid'>
-                      <a href="https://musical-chaja-ae96fd.netlify.app/">See this Live</a>
+                      <a href="https://machine-and-tools.netlify.app/" target='_blank' rel='noreferrer'>See this Live</a>
                       </Button>
                       <Button variant='ghost' className={styles.project_btn}>
-                      <a href="https://github.com/Kishan0431/ossified-temper-8142">View Code</a>
+                      <a href="https://github.com/mhtbansal11/Steady-pancake-873" target='_blank' rel='noreferrer'>View Code</a>
                       </Button>
                     </ButtonGroup>
                   </CardFooter>
@@ -128,10 +128,10 @@ export const Project = () => {
                   <CardFooter>
                     <ButtonGroup spacing='2'>
                       <Button variant='solid'>
-                        <a href="https://lovoda-clone-far-powder-2496.netlify.app/">See this Live</a>
+                        <a href="https://lovoda-clone-far-powder-2496.netlify.app/" target='_blank' rel='noreferrer'>See this Live</a>
                       </Button>
                       <Button variant='ghost' className={styles.project_btn}>
-                        <a href="https://github.com/Kishan0431/Lovoda.com">View Code</a>
+                        <a href="https://github.com/Kishan0431/Lovoda.com" target='_blank' rel='noreferrer'>View Code</a>
                       </Button>
                     </ButtonGroup>
                   </CardFooter>

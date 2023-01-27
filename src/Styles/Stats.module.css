@@ -7,6 +7,8 @@
     font-size: 30px;
     color: white;
     padding-bottom:2%;
+    letter-spacing: 1px;
+    font-weight: lighter;
 }
 .contribution{
     width:60%;
@@ -14,4 +16,15 @@
     display: flex;
     justify-content: space-evenly;
     margin-top:4%;
+}
+
+@media (min-width:200px) and (max-width: 481px){
+    .contribution{
+        width:85%;
+        display: grid;
+        margin: auto;
+        padding-top:10%;
+    }
+   
+    
 }
