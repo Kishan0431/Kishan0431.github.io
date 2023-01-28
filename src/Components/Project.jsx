@@ -1,9 +1,12 @@
 import React from 'react'
 import styles from "../Styles/Project.module.css";
 import { Card,Image, Stack, Heading, Text, ButtonGroup,Button, CardBody, CardFooter } from '@chakra-ui/react';
-import machineImg from '../Components/machine-and-tools.netlify.app.png'
+import machineImg from '../Components/machine-and-tools.netlify.app.png';
+
+
 
 export const Project = () => {
+ 
   return (
     <div id={"project"} className={styles.project_div}>
         <h1>Projects</h1>

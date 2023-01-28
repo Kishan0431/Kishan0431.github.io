@@ -2,6 +2,7 @@ import React from 'react';
 import styles from "../Styles/Profile.module.css";
 import Typewriter from "typewriter-effect";
 import { Button} from '@chakra-ui/react';
+import { motion } from "framer-motion";
 
 export const Profile = () => {
   
@@ -16,14 +17,24 @@ export const Profile = () => {
         loop: true,
         }}
     />
+    <motion.div  animate={{ x:80 }}
+    transition={{ type: "spring", stiffness:150 ,damping:2 }}>
     <Button id={styles.Resume_btn}>
         <a href='https://github.com/Kishan0431/Kishan0431/raw/main/Kishan_Joshi_Resume.pdf' download>Resume</a>
     </Button>
+    </motion.div>
+    
     
     </div>
-    <div className={styles.Avatar}>
+    <motion.div className={styles.Avatar}  initial={{ scale: 0 }}
+    animate={{ rotate:360, scale:1.1 }}
+        transition={{
+          type:'spring',
+          stiffness:25,
+          damping:3
+        }}>
         <img src="https://avatars.githubusercontent.com/u/103808725?v=4" alt="avatar" onMouseDown="10px"/>
-    </div>
+    </motion.div>
   </div>
   </>
 

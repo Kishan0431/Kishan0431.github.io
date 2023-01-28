@@ -46,7 +46,7 @@
    justify-content:flex-end;
 }
 #upbtn>div{
-    border: 1px solid;
+    /* border: 1px solid; */
     height: 60px;
     width: 60px;
     margin-right:5%;
@@ -58,7 +58,7 @@
     cursor: pointer;
     opacity: 0.2;
     position: fixed;
-    bottom:30px;
+    bottom:40px;
 }
 #upbtn>div:hover{
     transition: all .4s ease-in;
@@ -68,6 +68,14 @@
 .up{
     width: 40px;
     height: 40px;
+}
+#copyright{
+   padding-bottom:3px;
+   padding-top:3px;
+   font-weight: lighter;
+   background-color: black;
+   opacity: 0.9;
+   color: rgb(236, 236, 236);
 }
 @media (min-width:200px) and (max-width: 481px){
     #contact_container{

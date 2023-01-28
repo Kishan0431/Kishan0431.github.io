@@ -32,6 +32,7 @@ const Contact = () => {
         </div>
      </div>   
     </div>
+    <p id={styles.copyright}>Copyright © 2023. All Rights Reserved.Made with ❤️ by Kishan Joshi</p>
   </div>
  
 }
