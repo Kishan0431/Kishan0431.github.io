@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.558346db.css",
+    "main.css": "/static/css/main.d625f251.css",
     "main.js": "/static/js/main.e4743152.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/machine-and-tools.netlify.app.png": "/static/media/machine-and-tools.netlify.app.6108e0691a3b11313285.png",
     "index.html": "/index.html",
-    "main.558346db.css.map": "/static/css/main.558346db.css.map",
+    "main.d625f251.css.map": "/static/css/main.d625f251.css.map",
     "main.e4743152.js.map": "/static/js/main.e4743152.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.558346db.css",
+    "static/css/main.d625f251.css",
     "static/js/main.e4743152.js"
   ]
 }
