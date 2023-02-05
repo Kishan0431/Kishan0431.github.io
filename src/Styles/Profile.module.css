@@ -48,15 +48,15 @@
     color: white;
     background-color:black;
     margin-top:4%;
-    font-weight: lighter;
     letter-spacing:1.5px;
     transition: all .1s ease-in-out;
+    font-weight:400;
 }
 #Resume_btn:hover{
   color:black;
+  font-weight:400;
   background-color: rgba(255, 255, 255, 0.849);
   transform:scale(1.1);
-  font-weight: lighter;
 }
 
   @media (min-width:200px) and (max-width: 481px){

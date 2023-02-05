@@ -8,7 +8,7 @@
     padding-top:2%;
     color: white;
     letter-spacing: 1px; 
-    font-weight: lighter;
+    font-weight:400;
 }
 #outer{
     /* border: 1px solid red; */
@@ -30,7 +30,7 @@
   
 }
 .social:hover{
-    transition: all .4s ease-in;
+    transition:0.7s;
     transform:rotate(360deg);
 }
 .social{
@@ -72,10 +72,12 @@
 #copyright{
    padding-bottom:3px;
    padding-top:3px;
-   font-weight: lighter;
+   font-weight:200;
    background-color: black;
    opacity: 0.9;
    color: rgb(236, 236, 236);
+   word-spacing:1.5px;
+   letter-spacing: 1.5px;
 }
 @media (min-width:200px) and (max-width: 481px){
     #contact_container{

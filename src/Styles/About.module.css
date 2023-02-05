@@ -8,12 +8,12 @@
     font-size: 30px;
     padding-top:10%;
     letter-spacing: 1px;
-    font-weight: lighter;
+    font-weight:400;
 }
 #About_container>h3{
     /* border: 1px solid; */
     font-size:19px;
-    font-weight: lighter;
+    font-weight:200;
     width: 50%;
     margin: auto;
     margin-top:6%;

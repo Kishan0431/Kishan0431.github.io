@@ -18,7 +18,7 @@ export const Profile = () => {
         }}
     />
     <motion.div  animate={{ x:80 }}
-    transition={{ type: "spring", stiffness:150 ,damping:2 }}>
+    transition={{ type: "spring", stiffness:150 ,damping:1.5 }}>
     <Button id={styles.Resume_btn}>
         <a href='https://github.com/Kishan0431/Kishan0431/raw/main/Kishan_Joshi_Resume.pdf' download>Resume</a>
     </Button>
@@ -29,7 +29,7 @@ export const Profile = () => {
     <motion.div className={styles.Avatar}  initial={{ scale: 0 }}
     animate={{ rotate:360, scale:1.1 }}
         transition={{
-          type:'spring',
+          type:"spring",
           stiffness:25,
           damping:3
         }}>
