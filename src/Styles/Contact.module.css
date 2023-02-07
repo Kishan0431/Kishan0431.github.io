@@ -84,3 +84,11 @@
         height:40vh;
     }
 }
+@media (min-width: 481px) and (max-width: 1024px){
+    #outer{
+        margin-top:24%;
+    }
+    #contact_container{
+       padding-top:8%;
+    }
+}

@@ -22,8 +22,8 @@ export const Project = () => {
                     <Stack mt='6' spacing='3'>
                       <Heading size='lg'>J.Crew</Heading>
                       <Text>
-                          J.Crew is a clothing company that makes timeless clothes
-                          whose style and design changes season to season according
+                          J.Crew is clothing company that makes timeless clothes
+                          whose style,design changes season and according
                           to the fashion and new fabrics.
                       </Text>
                     </Stack>
@@ -88,7 +88,7 @@ export const Project = () => {
                     <Stack mt='6' spacing='3'>
                       <Heading size='lg'>Machine&Tools</Heading>
                       <Text>
-                      Machine&tools is a website where people can purchase Industrial Products with an objective to inculcate and introduce the concept of industrial supply chains in India.
+                      Machine&tools is website where people can purchase Industrial Products with objective to the concept of industrial supply chains in India.
                       </Text>
                     </Stack>
                     <div className={styles.languages_icon}>

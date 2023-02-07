@@ -90,7 +90,12 @@
         height:150px;
     }
 }
-/* 
-@media (min-width: 481px) and (max-width: 767px){
 
-} */
+@media (min-width: 481px) and (max-width: 1024px) {
+    .project{
+        margin-left: 2%;
+    }
+    .project_div{
+        height:140vh;
+    } 
+}

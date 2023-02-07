@@ -2,7 +2,6 @@
     background-color: black;
     height:440px;
     color: white;
-    /* border: 1px solid; */
 }
 .calender_div>h1{
     font-size: 30px;
@@ -11,7 +10,6 @@
     font-weight:400;
 }
 .calender{
-    /* border: 1px solid; */
     width:55%;
     margin: auto;
     margin-top:6%;
@@ -24,6 +22,14 @@
     .calender{
         width:90%;
         margin-top:20%;
+    }
+   
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+    .calender{
+        width: 85%;
+        height: 200px;
+        padding-top: 5%;
     }
    
 }
