@@ -94,7 +94,7 @@ export const Project = () => {
                     <div className={styles.languages_icon}>
                       <img src="https://cdn3d.iconscout.com/3d/free/thumb/html-4387638-3640299.png" alt="html" />
                       <img src="https://cdn3d.iconscout.com/3d/free/thumb/css3-4387639-3640300.png" alt="css" />
-                      <img src="https://cdn3d.iconscout.com/3d/free/thumb/javascript-logo-6563586-5453022.png" alt="javascript" />
+                      <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" alt="react"/>
                     </div>
                   </CardBody>
                   <CardFooter>
