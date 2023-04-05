@@ -139,6 +139,37 @@ export const Project = () => {
                     </ButtonGroup>
                   </CardFooter>
             </Card>
+            {/* ---------------------Amazon Prime UI---------------------------------- */}
+            <Card className={styles.project} maxW='md'>
+                  <CardBody className={styles.card_body}>
+                    <Image className={styles.project_img}
+                      src='https://i.postimg.cc/Pxj77jwm/Screenshot-2023-04-05-192657.png'
+                      alt='AmazonPrime'
+                      borderRadius='lg'
+                    />
+                    <Stack mt='6' spacing='3'>
+                      <Heading size='lg'>Amazon Prime UI</Heading>
+                      <Text>
+                      Amazon Prime Video is an American subscription video streaming and rental service of Amazon offered as part of Amazon's Prime subscription
+                      </Text>
+                    </Stack>
+                    <div className={styles.languages_icon}>
+                      <img src="https://cdn3d.iconscout.com/3d/free/thumb/html-4387638-3640299.png" alt="html" />
+                      <img src="https://cdn3d.iconscout.com/3d/free/thumb/css3-4387639-3640300.png" alt="css" />
+                      <img src="https://cdn3d.iconscout.com/3d/free/thumb/javascript-logo-6563586-5453022.png" alt="javascript" />
+                    </div>
+                  </CardBody>
+                  <CardFooter>
+                    <ButtonGroup spacing='2'>
+                      <Button variant='solid'>
+                        <a href="https://amazonprimeclonedemo.netlify.app/" target='_blank' rel='noreferrer'>See this Live</a>
+                      </Button>
+                      <Button variant='ghost' className={styles.project_btn}>
+                        <a href="https://github.com/masai-course/Kishan_fw17_0794/tree/master/unit-3/sprint-2/Amazon%20Prime" target='_blank' rel='noreferrer'>View Code</a>
+                      </Button>
+                    </ButtonGroup>
+                  </CardFooter>
+            </Card>
     </div>
     </div>
   )
