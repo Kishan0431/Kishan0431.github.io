@@ -28,7 +28,7 @@ export const Techstack = () => {
               </div>
               <div className={styles.techStack_first}>
                   <div className={styles.icon_container}>
-                        <img src="https://www.coffeeclass.io/logos/chakra-ui.png" alt="chakra"/>
+                        <img src="https://img.icons8.com/color/512/chakra-ui.png" alt="chakra"/>
                         <p>Chakra</p>
                   </div>
                   <div className={styles.icon_container}>
